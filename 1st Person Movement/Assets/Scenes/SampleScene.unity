@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 175849040}
   - component: {fileID: 175849039}
   - component: {fileID: 175849038}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 320194780}
   - component: {fileID: 320194779}
   - component: {fileID: 320194778}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +314,7 @@ GameObject:
   - component: {fileID: 381844230}
   - component: {fileID: 381844229}
   - component: {fileID: 381844228}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -405,7 +405,7 @@ GameObject:
   - component: {fileID: 471731383}
   - component: {fileID: 471731382}
   - component: {fileID: 471731381}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: stair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -477,9 +477,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 471731380}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.06999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0069999993, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 1572865042}
   - {fileID: 320194777}
@@ -488,8 +488,8 @@ Transform:
   - {fileID: 829932050}
   - {fileID: 175849037}
   - {fileID: 606957745}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 486148621}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &486148617
 GameObject:
@@ -503,7 +503,7 @@ GameObject:
   - component: {fileID: 486148620}
   - component: {fileID: 486148619}
   - component: {fileID: 486148618}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -579,7 +579,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 10}
-  m_Children: []
+  m_Children:
+  - {fileID: 471731384}
+  - {fileID: 705232305}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -595,7 +597,7 @@ GameObject:
   - component: {fileID: 606957748}
   - component: {fileID: 606957747}
   - component: {fileID: 606957746}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -686,7 +688,7 @@ GameObject:
   - component: {fileID: 655123189}
   - component: {fileID: 655123188}
   - component: {fileID: 655123187}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -778,7 +780,7 @@ GameObject:
   - component: {fileID: 705232304}
   - component: {fileID: 705232303}
   - component: {fileID: 705232302}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: slope
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -850,13 +852,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705232301}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.25, y: 1.96, z: -5.48}
-  m_LocalScale: {x: 3, y: 4, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.525, y: 0.19600001, z: -0.54800004}
+  m_LocalScale: {x: 0.3, y: 0.4, z: 0.1}
   m_Children:
   - {fileID: 655123186}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 486148621}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -961,7 +963,7 @@ GameObject:
   - component: {fileID: 829932053}
   - component: {fileID: 829932052}
   - component: {fileID: 829932051}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1084,13 +1086,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 956809450}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.1097183, y: 1.6874422, z: 11.61}
+  m_LocalPosition: {x: 0, y: 1.93, z: 8.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1433486430}
   - {fileID: 963194228}
+  - {fileID: 982159387}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &956809453
 MonoBehaviour:
@@ -1106,6 +1109,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Controller: {fileID: 956809451}
   speed: 12
+  gravity: -9.81
+  jumpHeight: 3
+  groundCheck: {fileID: 982159387}
+  groundDistance: 0.4
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,6 +1214,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MouseSensitivity: 100
   PlayerBody: {fileID: 956809452}
+--- !u!1 &982159386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 982159387}
+  m_Layer: 0
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &982159387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982159386}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.79, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 956809452}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1433486429
 GameObject:
   m_ObjectHideFlags: 0
@@ -1293,7 +1333,7 @@ GameObject:
   - component: {fileID: 1572865045}
   - component: {fileID: 1572865044}
   - component: {fileID: 1572865043}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1384,7 +1424,7 @@ GameObject:
   - component: {fileID: 1668053155}
   - component: {fileID: 1668053154}
   - component: {fileID: 1668053153}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
